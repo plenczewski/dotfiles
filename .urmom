@@ -1,0 +1,13 @@
+#       aliases
+alias :cls="clear"                                                       #       just clear screen
+alias :serve="python3 -m http.server"                                    #       serve workdir as http server
+alias gorepos="cd /home/ra11p0/source/repos"                            #       go to repos
+alias :q="exit"								#	vim style
+alias :gs="git status"
+
+#       exports
+export PATH=/home/ra11p0/.nimble/bin:$PATH                              #       nim lang binaries
+export PATH=/usr/local/go/bin:$PATH                                     #       go lang binaries
+
+echo 'urmom initialized'
+
