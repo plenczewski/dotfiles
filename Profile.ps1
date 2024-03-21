@@ -1,4 +1,7 @@
 #	fns
+function -cnc{
+    dotnet nuget locals all --clear;
+}
 function -gorepos					#Goes to repos directory
 {
 	cd D:\source\repos;
